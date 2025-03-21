@@ -245,7 +245,13 @@ bash reinstall.sh alpine --hold=1
   - `--ssh-key gitlab:your_username`
   - `--ssh-key /path/to/public_key`
   - `--ssh-key C:\path\to\public_key`
+ 
+示例： 需要安装最新的Debian 12  使用设置自己的ssh登录公钥  更改ssh端口到56789
 
+```
+bash reinstall.sh debian 12 --ssh-key "ssh-rsa ..." --ssh-port 56789    # ssh-rsa ...  替换为自己的公钥  保留外部引号
+
+```
 ### 功能 4: 重启到 <img width="16" height="16" src="https://netboot.xyz/img/favicon.ico" /> netboot.xyz
 
 - 可使用商家后台 VNC 手动安装 [更多系统](https://github.com/netbootxyz/netboot.xyz?tab=readme-ov-file#what-operating-systems-are-currently-available-on-netbootxyz)
