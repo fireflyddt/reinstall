@@ -1,5 +1,11 @@
 <!-- markdownlint-disable MD028 MD033 MD045 MD053 -->
 
+```
+bash reinstall.sh debian 12 --ssh-key "ssh-rsa ..." --ssh-port 56789    # ssh-rsa ...  替换为自己的公钥  保留外部引号
+```
+
+
+
 # reinstall
 
 [![Codacy](https://img.shields.io/codacy/grade/dc679a17751448628fe6d8ac35e26eed?logo=Codacy&label=Codacy&style=flat-square)](https://app.codacy.com/gh/bin456789/reinstall/dashboard)
